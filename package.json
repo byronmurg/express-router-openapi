@@ -1,0 +1,32 @@
+{
+  "name": "express-router-openapi",
+  "version": "0.1.0",
+  "description": "Generate express-js routes with openapi spec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronmurg/express-router-openapi.git"
+  },
+  "keywords": [
+    "express",
+    "openapi",
+    "swagger"
+  ],
+  "author": "Byron Murgatroyd <npm@omanom.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byronmurg/express-router-openapi/issues"
+  },
+  "homepage": "https://github.com/byronmurg/express-router-openapi#readme",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "ajv-formats": "^2.1.1",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "swagger-client": "^3.18.0"
+  }
+}
